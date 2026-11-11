@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\bin\Debug\net10.0-windows\Client2App.exe
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\bin\Debug\net10.0-windows\Client2App.deps.json
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\bin\Debug\net10.0-windows\Client2App.runtimeconfig.json
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\bin\Debug\net10.0-windows\Client2App.dll
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\bin\Debug\net10.0-windows\Client2App.pdb
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\obj\Debug\net10.0-windows\Client2App.Client2Form.resources
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\obj\Debug\net10.0-windows\Client2App.csproj.GenerateResource.cache
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\obj\Debug\net10.0-windows\Client2App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\obj\Debug\net10.0-windows\Client2App.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\obj\Debug\net10.0-windows\Client2App.AssemblyInfo.cs
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\obj\Debug\net10.0-windows\Client2App.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\obj\Debug\net10.0-windows\Client2App.dll
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\obj\Debug\net10.0-windows\refint\Client2App.dll
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\obj\Debug\net10.0-windows\Client2App.pdb
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\obj\Debug\net10.0-windows\Client2App.genruntimeconfig.cache
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\obj\Debug\net10.0-windows\ref\Client2App.dll
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\Client2App\obj\Debug\net10.0-windows\Client2App.csproj.Up2Date

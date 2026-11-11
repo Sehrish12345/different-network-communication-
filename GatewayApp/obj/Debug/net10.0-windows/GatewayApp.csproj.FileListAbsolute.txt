@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\bin\Debug\net10.0-windows\GatewayApp.exe
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\bin\Debug\net10.0-windows\GatewayApp.deps.json
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\bin\Debug\net10.0-windows\GatewayApp.runtimeconfig.json
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\bin\Debug\net10.0-windows\GatewayApp.dll
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\bin\Debug\net10.0-windows\GatewayApp.pdb
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\obj\Debug\net10.0-windows\GatewayApp.GatewayForm.resources
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\obj\Debug\net10.0-windows\GatewayApp.csproj.GenerateResource.cache
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\obj\Debug\net10.0-windows\GatewayApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\obj\Debug\net10.0-windows\GatewayApp.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\obj\Debug\net10.0-windows\GatewayApp.AssemblyInfo.cs
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\obj\Debug\net10.0-windows\GatewayApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\obj\Debug\net10.0-windows\GatewayApp.dll
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\obj\Debug\net10.0-windows\refint\GatewayApp.dll
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\obj\Debug\net10.0-windows\GatewayApp.pdb
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\obj\Debug\net10.0-windows\GatewayApp.genruntimeconfig.cache
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\obj\Debug\net10.0-windows\ref\GatewayApp.dll
+C:\Users\User\Desktop\c# code files\UDPCommunicationProject\GatewayApp\obj\Debug\net10.0-windows\GatewayApp.csproj.Up2Date
