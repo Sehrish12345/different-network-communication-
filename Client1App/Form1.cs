@@ -15,6 +15,7 @@ namespace Client1App
         private TextBox txtOtherIP;
         private TextBox txtOtherPort;
         private TextBox txtMessage;
+        private TextBox txtLocalPort;
 
         // Received Messages
         private RichTextBox txtReceived;
@@ -80,7 +81,7 @@ namespace Client1App
             // Destination Network
             Panel pnlDestination = new Panel();
             pnlDestination.Location = new Point(25, 105);
-            pnlDestination.Size = new Size(550, 135);
+            pnlDestination.Size = new Size(550, 150);
             pnlDestination.BackColor = Color.FromArgb(250, 240, 243);
 
             // Section Heading
@@ -114,11 +115,24 @@ namespace Client1App
             txtOtherPort.Size = new Size(325, 25);
             txtOtherPort.BackColor = Color.White;
 
+            // Local Port
+            Label lblLocalPort = new Label();
+            lblLocalPort.Text = "Local Port";
+            lblLocalPort.Location = new Point(15, 115);
+            lblLocalPort.Size = new Size(190, 25);
+
+            txtLocalPort = new TextBox();
+            txtLocalPort.Text = "5001";
+            txtLocalPort.Location = new Point(210, 113);
+            txtLocalPort.Size = new Size(325, 25);
+            txtLocalPort.BackColor = Color.White;
             pnlDestination.Controls.Add(lblDestination);
             pnlDestination.Controls.Add(lblIP);
             pnlDestination.Controls.Add(txtOtherIP);
             pnlDestination.Controls.Add(lblPort);
-            pnlDestination.Controls.Add(txtOtherPort);
+                pnlDestination.Controls.Add(txtOtherPort);
+                pnlDestination.Controls.Add(lblLocalPort);
+            pnlDestination.Controls.Add(txtLocalPort);
 
             this.Controls.Add(pnlDestination);
             // Start Button
@@ -218,8 +232,17 @@ namespace Client1App
             }
             try
             {
-                udpClient = new UdpClient();
+                
+                int localPort;
 
+                if (!int.TryParse(txtLocalPort.Text, out localPort) ||
+                    localPort < 1 || localPort > 65535)
+                {
+                    MessageBox.Show("Please enter a valid Local Port.");
+                    return;
+                }
+
+                udpClient = new UdpClient(new IPEndPoint(IPAddress.Any, localPort));
                 gatewayEndPoint = new IPEndPoint(gatewayIP, gatewayPort);
 
                 isRunning = true;
@@ -227,6 +250,7 @@ namespace Client1App
                 receiveThread = new Thread(ReceiveMessages);
                 receiveThread.IsBackground = true;
                 receiveThread.Start();
+                
 
                 lblStatus.Text = "Status: Ready";
                 btnStart.Enabled = false;
@@ -258,9 +282,7 @@ namespace Client1App
 
             udpClient.Send(data, data.Length, gatewayEndPoint);
 
-            txtReceived.AppendText(
-                "Sent: " + message + Environment.NewLine
-            );
+            
 
             txtMessage.Clear();
         }
@@ -288,13 +310,14 @@ namespace Client1App
                 try
                 {
                     byte[] data = udpClient.Receive(ref remoteEndPoint);
+                    
 
                     string message = Encoding.UTF8.GetString(data);
 
                     txtReceived.Invoke(new Action(() =>
                     {
                         txtReceived.AppendText(
-                            "Received: " + message + Environment.NewLine
+                            "Received form Client 2: " + message + Environment.NewLine
                         );
                     }));
                 }
